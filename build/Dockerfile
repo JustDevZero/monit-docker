@@ -17,7 +17,7 @@ RUN \
  rm -rf /var/lib/{apt,dpkg,cache,log}
 
 
-ENV VERSION 5.14
+ENV VERSION 5.13
 
 #install fresh monit
 #ADD https://mmonit.com/monit/dist/binary/${VERSION}/monit-${VERSION}-linux-x64.tar.gz /tmp/monit-${VERSION}-linux-x64.tar.gz
